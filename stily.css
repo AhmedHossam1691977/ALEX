@@ -1,0 +1,1089 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "segoe ui light";
+}
+
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+i {
+    color: #ff305b;
+}
+/* =================================== */
+
+.back {
+    background-color: rgb(0, 0, 0, 80%);
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+.nav {
+    background-image: url(img/WhatsApp\ Image\ 2023-05-25\ at\ 20.09.12.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav .logo h1 a {
+    width: 20%;
+    float: left;
+    position: absolute;
+    left: 200px;
+    top: 10px;
+    color: #ff305b;
+    font-size: 25px;
+    font-family: "Alegreya", serif;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-family: "Alegreya SC", serif;
+    font-family: "Patua One", cursive;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.nav .link {
+    width: 80%;
+    float: left;
+}
+
+.nav .link ul {
+    overflow: hidden;
+    position: absolute;
+    right: 200px;
+}
+
+.nav .link ul li {
+    float: left;
+    padding: 15px 20px 0px 0px;
+}
+
+.nav .link ul li a {
+    transition: color 0.8s 0.1s;
+    font-family: "Alegreya", serif;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-family: "Alegreya SC", serif;
+    font-family: "Patua One", cursive;
+    font-family: "Source Sans Pro", sans-serif;
+}
+#home {
+    color: #ff305b;
+}
+
+.nav .link ul li a:hover {
+    color: #ff305b;
+}
+
+/* ================================= */
+.home {
+    width: 500px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+.home .alex {
+    width: 100%;
+}
+
+.home .alex p {
+    color: #fff;
+    font-size: 28px;
+    font-family: "Alegreya", serif;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-family: "Alegreya SC", serif;
+    font-family: "Patua One", cursive;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.home .alex h2 {
+    color: #ff305b;
+    font-size: 75px;
+    font-family: "Alegreya", serif;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-family: "Alegreya SC", serif;
+    font-family: "Patua One", cursive;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+/*=========================================================*/
+.scetion1 {
+    width: 100%;
+    overflow: hidden;
+    top: 100px;
+    padding: 150px 0px;
+}
+
+.scetion1 .description .line {
+    border: dashed 1px black;
+    width: 550px;
+}
+
+/* start img */
+
+.scetion1 .border-img {
+    float: left;
+    width: 25%;
+    position: relative;
+    left: 200px;
+    border: solid 10px black;
+    border-radius: 10px;
+}
+
+.scetion1 .border-img .img {
+    position: 25%;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    overflow: hidden;
+}
+
+.scetion1 .border-img .img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.scetion1 .border-img .img .link {
+    background-color: rgb(0, 0, 0, 50%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    transition: top 1s;
+}
+
+.scetion1 .border-img .img:hover .link {
+    top: 0px;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+/* end img */
+
+/* start link  */
+.scetion1 .border-img .img .link ul {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 220px;
+    left: 90px;
+}
+
+.scetion1 .border-img .img .link ul li {
+    width: 13%;
+    float: left;
+}
+
+
+.scetion1 .border-img .img .link ul li i {
+    color: #fff;
+    font-size: 25px;
+    transition: all 1s;
+}
+
+.scetion1 .border-img .img .link ul li i:hover{
+    color: #ff305b;
+}
+
+/* end link */
+
+/* start description text */
+
+.scetion1 .description .text span {
+    color: #ff305b;
+}
+
+.scetion1 .description .text h3 {
+    font-size: 34px;
+    font-family: "Alegreya", serif;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-family: "Alegreya SC", serif;
+    font-family: "Patua One", cursive;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.scetion1 .description .text p {
+    width: 550px;
+    padding: 50px 0px;
+    font-size: 18px;
+    font-family: "Alegreya", serif;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-family: "Alegreya SC", serif;
+    font-family: "Patua One", cursive;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.scetion1 .description .text p {
+    padding: 10px 0px;
+}
+
+/* end description text */
+
+/* start description  */
+
+.scetion1 .description {
+    width: 50%;
+    float: left;
+    position: absolute;
+    right: 30px;
+}
+/* end description */
+
+/* start description link  */
+
+.scetion1 .description .info-person {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 30px 0px;
+}
+.scetion1 .description .info-person ul li {
+    padding: 5px 0px;
+}
+
+.scetion1 .description .info-person ul li a {
+    color: #555555;
+}
+
+.scetion1 .description .info-person .name {
+    width: 50%;
+    float: left;
+}
+
+.scetion1 .description .info-person .name span,
+.scetion1 .description .info-person .job span {
+    font-family: "Alegreya", serif;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-family: "Alegreya SC", serif;
+    font-family: "Patua One", cursive;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.scetion1 .description .info-person .job {
+    width: 50%;
+    float: left;
+    position: relative;
+    right: 150px;
+}
+
+/* end description link */
+
+/* start button */
+.scetion1 .button {
+    padding-top: 10px;
+}
+
+.scetion1 .button .Download,
+.scetion1 .button .Hire {
+    background-color: #ff305b;
+    padding: 15px 20px;
+    border-radius: 10px;
+    transition: background 0.8s 0.1s;
+}
+.scetion1 .button .Download:hover {
+    background-color: #f03a1e;
+}
+
+.scetion1 .button .Hire:hover {
+    background-color: #f03a1e;
+}
+
+.scetion1 .button .Hire {
+    position: relative;
+    left: 20px;
+}
+
+.scetion1 .button a,
+.scetion1 .button a {
+    font-family: "Alegreya", serif;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-family: "Alegreya SC", serif;
+    font-family: "Patua One", cursive;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+/* end button */
+
+
+
+/* ====================================================== */
+.section2 {
+    background-color: #f1f1f1;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    padding: 100px 0px;
+}
+
+.section2 .our {
+    width: 100%;
+    position: absolute;
+    top: 50px;
+}
+
+.section2 .our .line {
+    width: 200px;
+    border-bottom: solid 1.5px #ff305b;
+    position: relative;
+    left: 43%;
+    top: 20px;
+}
+
+.section2 .our .line::before {
+    content: "";
+    width: 100px;
+    border-bottom: solid 1.5px #ff305b;
+    position: absolute;
+    top: -5px;
+    left: 30%;
+}
+.section2 .our .line::after {
+    content: "";
+    width: 100px;
+    border-bottom: solid 1.5px #ff305b;
+    position: absolute;
+    bottom: -5px;
+    left: 30%;
+}
+
+.section2 .study {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top: 50px;
+    left: 180px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 50px 0px;
+}
+.section2 .study .ui,
+.section2 .study .APP,
+.section2 .study .PRODUCT,
+.section2 .study .UX {
+    width: 20%;
+    height: 300px;
+    float: left;
+    box-sizing: border-box;
+    padding: 50px 20px;
+    transition: all 1s;
+}
+
+.section2 .study .ui:hover {
+    background-color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 10px -5px 70px -46px rgba(0,0,0,0.66);
+-webkit-box-shadow: 10px -5px 70px -46px rgba(0,0,0,0.66);
+-moz-box-shadow: 10px -5px 70px -46px rgba(0,0,0,0.66);
+    
+}
+.section2 .study .PRODUCT:hover {
+    background-color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 10px -5px 70px -46px rgba(0,0,0,0.66);
+-webkit-box-shadow: 10px -5px 70px -46px rgba(0,0,0,0.66);
+-moz-box-shadow: 10px -5px 70px -46px rgba(0,0,0,0.66);
+    
+
+}
+.section2 .study .UX:hover {
+    background-color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 10px -5px 70px -46px rgba(0,0,0,0.66);
+-webkit-box-shadow: 10px -5px 70px -46px rgba(0,0,0,0.66);
+-moz-box-shadow: 10px -5px 70px -46px rgba(0,0,0,0.66);
+}
+.section2 .study .APP:hover {
+    background-color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 10px -5px 70px -46px rgba(0,0,0,0.66);
+-webkit-box-shadow: 10px -5px 70px -46px rgba(0,0,0,0.66);
+-moz-box-shadow: 10px -5px 70px -46px rgba(0,0,0,0.66);
+}
+
+.section2 .study h2 {
+    padding: 15px 0px;
+}
+
+.section2 i {
+    font-size: 40px;
+    color: #ff305b;
+    transition: all 1s;
+}
+.section2 .study .APP:hover i {
+    transform: scale(1.1);
+}
+.section2 .study .ui:hover i {
+    transform: scale(1.1);
+}
+.section2 .study .UX:hover i {
+    transform: scale(1.1);
+}
+.section2 .study .PRODUCT:hover i {
+    transform: scale(1.1);
+}
+
+/* ======================================================== */
+.section3 {
+    width: 100%;
+    position: relative;
+    padding: 150px 0px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.section3 .titel {
+    position: absolute;
+    top: 50px;
+    left: 650px;
+}
+.section3 .titel h2 {
+    font-size: 30px;
+    font-family: "Alegreya", serif;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-family: "Alegreya SC", serif;
+    font-family: "Patua One", cursive;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.section3 .titel .line {
+    width: 200px;
+    border-bottom: solid 1.5px #ff305b;
+    position: absolute;
+    left: -35px;
+    top: 60px;
+}
+
+.section3 .titel .line::before {
+    content: "";
+    width: 100px;
+    border-bottom: solid 1.5px #ff305b;
+    position: absolute;
+    top: -5px;
+    left: 30%;
+}
+.section3 .titel .line::after {
+    content: "";
+    width: 100px;
+    border-bottom: solid 1.5px #ff305b;
+    position: absolute;
+    bottom: -5px;
+    left: 30%;
+}
+
+ .section3 .link {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top: 30px;
+    left: 550px;
+}
+
+.section3 .link ul li {
+    float: left;
+    width: 7%;
+}
+
+.section3 .link ul li a {
+    color: #333333;
+    font-family: "Alegreya", serif;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-family: "Alegreya SC", serif;
+    font-family: "Patua One", cursive;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.section3 .link ul .all a:hover {
+    color: #ff305b;
+}
+
+.section3 .img .row1,
+.section3 .img .row {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+
+.section3 img {
+    width: 100%;
+}
+
+.section3 .row .img1 {
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    left: 0px;
+}
+
+.section3 .row .img1 .back-img1 {
+    background-color: rgb(0, 0, 0, 50%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.section3 .row .img1 .back-img1:hover {
+    opacity: 1;
+}
+
+.section3 .row .img2 {
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    left: 30px;
+}
+
+.section3 .row .img2 .back-img2 {
+    background-color: rgb(0, 0, 0, 50%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.section3 .row .img2 .back-img2:hover {
+    opacity: 1;
+}
+
+.section3 .row .img3 {
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    left: 60px;
+}
+
+.section3 .row .img3 .back-img3 {
+    background-color: rgb(0, 0, 0, 50%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.section3 .row .img3 .back-img3:hover {
+    opacity: 1;
+}
+
+.section3 .img .row1 .img4 {
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    left: 0px;
+    top: 30px;
+}
+
+.section3 .img .row1 .img4 .back-img4 {
+    background-color: rgb(0, 0, 0, 50%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.section3 .img .row1 .img4 .back-img4:hover {
+    opacity: 1;
+}
+
+.section3 .img .row1 .img5 {
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    left: 30px;
+    top: 30px;
+}
+
+.section3 .img .row1 .img5 .back-img5 {
+    background-color: rgb(0, 0, 0, 50%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.section3 .img .row1 .img5 .back-img5:hover {
+    opacity: 1;
+}
+
+.section3 .img .row1 .img6 {
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    left: 60px;
+    top: 30px;
+}
+
+.section3 .img .row1 .img6 .back-img6 {
+    background-color: rgb(0, 0, 0, 50%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.section3 .img .row1 .img6 .back-img6:hover {
+    opacity: 1;
+}
+
+.section3 i {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+} */
+
+/* ======================================================= */
+.section4 svg {
+    color: #ff305b;
+}
+
+.section4 {
+    background-color: #f1f1f1;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 100px 0px;
+}
+*/ .section4 .Team {
+    width: 20%;
+    float: left;
+}
+
+.section4 .Complete {
+    width: 20%;
+    float: left;
+}
+
+.section4 .Files {
+    width: 20%;
+    float: left;
+}
+
+.section4 .Files,
+.section4 .Complete,
+.section4 .Team,
+.section4 .Lines {
+    width: 20%;
+    float: left;
+    position: relative;
+    left: 120px;
+}
+
+.section4 .Files h3,
+.section4 .Complete h3,
+.section4 .Team h3,
+.section4 .Lines h3 {
+    font-size: 25px;
+    font-family: "Alegreya", serif;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-family: "Alegreya SC", serif;
+    font-family: "Patua One", cursive;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.section4 .Files p,
+.section4 .Complete p,
+.section4 .Team p,
+.section4 .Lines p {
+    font-size: 15px;
+    font-family: "Alegreya", serif;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-family: "Alegreya SC", serif;
+    font-family: "Patua One", cursive;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+/* ========================================== */
+
+.section5 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 150px 0px;
+}
+
+.section5 .text {
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    left: 520px;
+    font-size: 25px;
+    font-family: "Alegreya", serif;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-family: "Alegreya SC", serif;
+    font-family: "Patua One", cursive;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.section5 .text .line {
+    width: 200px;
+    border-bottom: solid 1.5px #ff305b;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.section5 .text .line::before {
+    content: "";
+    width: 100px;
+    border-bottom: solid 1.5px #ff305b;
+    position: absolute;
+    top: -5px;
+    left: 30%;
+}
+.section5 .text .line::after {
+    content: "";
+    width: 100px;
+    border-bottom: solid 1.5px #ff305b;
+    position: absolute;
+    bottom: -5px;
+    left: 30%;
+}
+
+.section5 .discrbtion {
+    background-color: #f1f1f1;
+    width: 50%;
+    overflow: hidden;
+    position: relative;
+    padding: 50px 0px;
+    left: 350px;
+}
+
+.section5 .discrbtion .p-profile {
+    width: 40%;
+    float: left;
+}
+
+.section5 .discrbtion .titel {
+    width: 70%;
+    float: left;
+    position: absolute;
+    right: 20px;
+}
+
+.section5 .discrbtion .img img {
+    border-radius: 50%;
+}
+
+.section5 .discrbtion .img {
+    position: relative;
+    left: 20px;
+    top: -10px;
+}
+
+.section5 .p-profile .transform {
+    width: 500px;
+    height: 500px;
+    background-color: #ff305b;
+    transform: rotate(135deg);
+    position: absolute;
+    top: -350px;
+    left: -350px;
+}
+.section5 .discrbtion .titel p {
+    font-family: "Alegreya", serif;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-family: "Alegreya SC", serif;
+    font-family: "Patua One", cursive;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.section5 .discrbtion .titel a {
+    color: #777777;
+}
+
+.section5 .star i {
+    color: gold;
+}
+
+/* =======================================================. */
+.section6 {
+    width: 100%;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    position: relative;
+    padding: 150px 0px 75px 0px;
+}
+
+.section6 .text {
+
+    width: 100%;
+    position: absolute;
+    top: 50px ;
+    left: 700px;
+}
+
+
+
+
+
+.section6 .text .line {
+    width: 200px;
+    border-bottom: solid 1.5px #ff305b;
+    position: relative;
+    top: 20px;
+    left: -40px;
+}
+
+.section6 .text .line::before {
+    content: "";
+    width: 100px;
+    border-bottom: solid 1.5px #ff305b;
+    position: absolute;
+    top: -5px;
+    left: 30%;
+}
+.section6 .text .line::after {
+    content: "";
+    width: 100px;
+    border-bottom: solid 1.5px #ff305b;
+    position: absolute;
+    bottom: -5px;
+    left: 30%;
+}
+
+.section6 .discrbtion {
+    width: 100%;
+
+    overflow: hidden;
+    position: relative;
+    left: 120px;
+    
+}
+
+.section6 img{
+    width:367px;
+    height: 200px;
+}
+
+
+.section6 .discrbtion .web{
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    float: left;
+    position: relative;
+    left: 50px;
+
+}
+
+.section6 .discrbtion .development {
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    float: left;
+    position: relative;
+    left: 100px;
+
+}
+
+.section6 .discrbtion  .full{
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    float: left;
+    position: relative;
+    left: 150px;
+}
+
+.section6 .discrbtion  a{
+    font-size: 25px;
+    color: black;
+    padding: 60px 0px;
+    font-family: 'Alegreya', serif;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Alegreya SC', serif;
+font-family: 'Patua One', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+transition: color 1s;
+}
+
+.section6 .discrbtion h5{
+    padding: 10px 15px;
+}
+
+.section6 .discrbtion p{
+    padding: 20px 0px;
+}
+
+.section6 .discrbtion  a:hover{
+    color: #ff305b;
+}
+.section6 .discrbtion  a:hover i{
+    color: #ff305b;
+}
+
+.section6 .discrbtion i{
+    color: black;
+    transition: color 1s;
+}
+/* ============================================ */
+.section7 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.section7 .text{
+    width: 100%;
+    position: absolute;
+    top: 50px ;
+    left: 700px;
+}
+
+
+
+
+
+.section7 .text .line {
+    width: 200px;
+    border-bottom: solid 1.5px #ff305b;
+    position: relative;
+    top: 20px;
+    left: -40px;
+}
+
+.section7 .text .line::before {
+    content: "";
+    width: 100px;
+    border-bottom: solid 1.5px #ff305b;
+    position: absolute;
+    top: -5px;
+    left: 30%;
+}
+.section7 .text .line::after {
+    content: "";
+    width: 100px;
+    border-bottom: solid 1.5px #ff305b;
+    position: absolute;
+    bottom: -5px;
+    left: 30%;
+}
+
+.section7 .button{
+    background-color: #ff305b;
+    width: 8%;
+    padding: 15px 20px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 400px;
+}
+
+.section7 .form {
+    width: 50%;
+    padding: 150px 0px;
+    position: relative;
+    left: 400px;
+}
+
+
+.section7 .form .email,
+.section7 .form .name{
+    width: 35%;
+    height: 45px;
+    border: solid 1.5px #a94442;
+    border-radius: 5px;
+    padding-right: 80px;
+
+}
+
+.section7 .form .email{
+    position: absolute;
+    right: 0px;
+}
+
+.section7 .form .Subject {
+    width: 100%;
+    height: 45px;
+    border: solid 1.5px #a94442;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+
+}
+
+.section7 .form textarea {
+    position: relative;
+    top: 40px;
+    border: solid 1.5px #a94442;
+    border-radius: 5px;
+    
+}
+
+/* =================================== */
+
+
+footer {
+    background-color: #333333 ;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 190px;
+    position: relative;
+}
+
+footer .link {
+    width: 100%;
+    overflow: hidden;
+    position: absolute ;
+    top: 100px;
+    left: 600px;
+
+}
+
+footer .link ul li{
+    float: left;
+    width: 3%;
+}
+
+footer .link ul li a i{
+    color: white;
+    transform: color .5s;
+}
+footer .link ul li a i:hover{
+    color: #ff305b;
+}
+
+footer .text{
+    width: 100%;
+    position: absolute;
+    top: 130px;
+    left: 500px;
+    color: #fff;
+}
+
+footer .text a{
+    color: #ff305b;
+}
+footer .text a:hover{
+    text-decoration: underline;
+}
